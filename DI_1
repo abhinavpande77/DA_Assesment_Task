@@ -1,0 +1,13 @@
+import pandas as pd
+
+sales_data = pd.read_excel('D:/TaskARC/Task_file/sales_data.xlsx')
+print(sales_data)
+
+
+customer_behaviour_data = pd.read_csv('D:/TaskARC/Task_file/customer_behavior.csv')
+inventory_data = pd.read_csv('D:/TaskARC/Task_file/inventory.csv')
+product_data = pd.read_csv('D:/TaskARC/Task_file/products.csv')
+
+print("customer_behaviour_data" ,'\n',customer_behaviour_data.head(5))
+print("inventory_data" ,'\n',inventory_data.head(5))
+print("product_data" ,'\n',product_data.head(5))
